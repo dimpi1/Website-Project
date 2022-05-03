@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    font-family: sans-serif;
+    background-image:url('./dslre.jpg') ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Navigation Bar */
+
+nav{
+    height: 180px;
+    width: 100%;
+    background: #ff68de;
+}
+
+label.logo{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 2px;
+    line-height: 50px;
+}
+
+nav a{
+    color:white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding:5px 8px;
+    border-radius: 3px;
+}
+
+a.active,a:hover{
+    border: 1px solid white;
+    transition: .5s;
+} 
+
+/* Header section */
+
+.header-sec{
+    margin-top: 100px;
+    padding-left: 25px;
+}
+
+.header h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding-left: 25px;
+}
+
+.header p{
+    font-size: 20px;
+    padding-left: 55px;
+    margin-top: 35px;
+}
+
+/* All button */
+
+.all-btn{
+    padding-left: 50px;
+    margin: 5px;
+    margin-top: 100px;
+
+}
+
+.btn{
+    padding: 20px 25px;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    background: transparent;
+}
+
+a:link,a:visited{
+    text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+
+.btn:hover,a:active{
+    background-color: #f67c92;    
+}
+
+/* Java Section */
+
+.java-video{
+    margin: 10px;
+    padding: 100px;
+}
+.video-sec h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding-left: 55px;
+    margin-top: 100px;
+}
+
+.video-sec h2{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    color: #f67c92;
+    margin-top: 35px;
+}
+
+iframe{
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.playlist{
+    text-align: center;
+    margin-left: 555px;
+    padding: 20px 25px;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: #f67c92;    
+}
+
+iframe{
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+/* HTML video */
+
+.html-video{
+    margin: 10px;
+    padding: 100px;
+}
+
+iframe{
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+/* Python Video */
+
+.python-video{
+    margin: 10px;
+    padding: 100px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css">   
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.jpg">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+   
+
+</head>
+<body>
+    <!-- Main  -->
+    <div class="hero">
+
+        <!-- Form box -->
+        
+        <div class="form-box">
+
+            <!-- Form Button -->
+
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()" >Register</button>
+            </div>
+ 
+            <!-- Social Icons -->
+
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><img src="./facebook.png" alt="fb" ></a>
+                <a href="https://www.instagram.com/"><img src="./instagram.png" alt="insta"></a>
+                <a href="https://in.linkedin.com/"><img src="./linkedin.png" alt=" linkedin"></a>
+                <a href="https://twitter.com/?lang=en-in"><img src="./twitter.png" alt="tw"></a>
+            </div>
+
+            <!-- Form inputs -->
+
+            <form  id="login" class="input-group" >
+                <input type="text" class="input-field"  placeholder="User Id" pattern="[A-Za-z]{1,}" required>
+                <input type="password" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box" ><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log in</button>
+            </form>
+            <form id="register"  class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" placeholder="[A-Za-z]{1,}" required>
+                <input type="email" class="input-field" placeholder="Email Id" required>
+                <input type="number" class="input-field" placeholder="Enter Phone Number" pattern="[0-9]{10}">
+                <input type="password" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box" ><span>I agree to the terms & conditions</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- Scripting on form -->
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+
+        function register() {
+            x.style.left = "-450px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+
+        function login() {
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0";
+        }
+    </script>
+
+</body>
+</html>

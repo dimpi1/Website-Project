@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="algo.css">
+    <!-- Favicon  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.jpg">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+  
+  <!-- Navigation bar -->
+  <nav>
+    <label class="logo"><a href="index.html">E learning</a></label>
+    <br>
+    <ul>
+      <li><a  href="JEEprepare.html">JEE Prepartion</a></li>
+      <li><a href="GATEprepare.html">GATE Prepartion</a></li>
+      <li><a href="computercourses.html">Computer Course</a></li>
+      <li><a href="datastructures.html">Data Structure</a></li>
+      <li><a class="active" href="algorithm.html">Algorithm</a></li>
+      <li><a  href="Projects.html">Projects</a></li>
+    </ul>
+    </nav>
+
+    <!-- main section -->
+    <main class="background">
+    
+      <!-- video section -->
+    <section>
+      <video unmuted loop autoplay  id="myVideo" >
+  
+        <source src="algo.mp4" type="video/mp4">
+    </video>
+      <button id="myBtn" onclick="myFunction()">Pause</button>
+    </div>
+    </section>
+    <!-- some Text -->
+    <section class="header">
+      <marquee><h1 style="font-size:95px;color:lightblue;">
+        Algorithm
+      </h1></marquee>
+      <br>
+      <br>
+      <br>
+      <h1>Introduction to Algorithms</h1>
+      <br>
+      <br>
+      <h3>What is Algorithm? Algorithm Basics</h3>
+      <br>
+      <br>
+      <p>The word Algorithm means “a process or set of rules to be followed in calculations or other problem-solving operations”. Therefore Algorithm refers to a set of rules/instructions that step-by-step define how a work is to be executed upon in order to get the expected results. </p>
+
+      <!-- Image of what is algorithm  -->
+
+      <img src="./What-is-Algorithm_.jpg" alt="algo" width="50%" height="50%">
+      <br>
+      <br>
+      <p>It can be understood by taking an example of cooking a new recipe. To cook a new recipe, one reads the instructions and steps and execute them one by one, in the given sequence. The result thus obtained is the new dish cooked perfectly. Similarly, algorithms help to do a task in programming to get the expected output.
+        The Algorithm designed are language-independent, i.e. they are just plain instructions that can be implemented in any language, and yet the output will be the same, as expected.</p>
+      <br>
+      <br>
+      <h3>What are the Characteristics of an Algorithm?</h3>
+
+      <img src="./Characteristics-of-an-Algorithm-1024x630.jpg" alt="type" width="50%" height="50%">
+      <!-- Image of characteristics of an algoritm -->
+      <br>
+      <br>
+      <p>As one would not follow any written instructions to cook the recipe, but only the standard one. Similarly, not all written instructions for programming is an algorithm. In order for some instructions to be an algorithm, it must have the following characteristics:</p>
+      <br>
+      <ul>
+        <li>Clear and Unambiguous:</li>
+        <p>Algorithm should be clear and unambiguous. Each of its steps should be clear in all aspects and must lead to only one meaning.</p>
+        <li>Well-Defined Inputs:</li>
+        <p>If an algorithm says to take inputs, it should be well-defined inputs.</p>
+        <li>Well-Defined Outputs:</li>
+        <p>The algorithm must clearly define what output will be yielded and it should be well-defined as well.</p>
+        <li>Finite-ness:</li>
+        <p>The algorithm must be finite, i.e. it should not end up in an infinite loops or similar.</p>
+        <li>Feasible:</li>
+        <p>The algorithm must be simple, generic and practical, such that it can be executed upon will the available resources. It must not contain some future technology, or anything.</p>
+        <li>Language Independent:</li>
+        <p>The Algorithm designed must be language-independent, i.e. it must be just plain instructions that can be implemented in any language, and yet the output will be same, as expected.</p>
+      </ul>
+      <br>
+      <br>
+      <br>
+      <h3>Advantages of Algorithms:</h3>
+      <br>
+        <p>It is easy to understand.</p>
+        <p>Algorithm is a step-wise representation of a solution to a given problem.</p>
+        <p>In Algorithm the problem is broken down into smaller pieces or steps hence, it is easier for the programmer to convert it into an actual program.</p>
+      
+
+      <br>
+      <br>
+      <h3>Disadvantages of Algorithms:</h3>
+      <br>
+        <p>Writing an algorithm takes a long time so it is time-consuming.</p>
+        <p>Branching and Looping statements are difficult to show in Algorithms.</p>
+      
+      <br>
+      <br>
+      <h3>How to Design an Algorithm?</h3>
+      <br>
+      <p>In order to write an algorithm, following things are needed as a pre-requisite:</p>
+      <br>
+        <p>The <strong>problem</strong> that is to be solved by this algorithm.</p>
+        <p>The <strong>constraints</strong> of the problem that must be considered while solving the problem.</p>
+        <p>The <strong>input</strong> to be taken to solve the problem.</p>
+        <p>The <strong>input</strong> to be expected when the problem the is solved.</p>
+        <p>The <strong>solution</strong> to this problem, in the given constraints.</p> 
+      
+
+      <br>
+      <p>Then the algorithm is written with the help of above parameters such that it solves the problem.
+      <br>  <strong>Example:</strong> Consider the example to add three numbers and print the sum.</p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <ul>
+        <li>Step 1: Fulfilling the pre-requisites</li>
+        <br>
+        <p>As discussed above, in order to write an algorithm, its pre-requisites must be fulfilled. </p>
+        <br>
+          <p><strong>The problem that is to be solved by this algorithm:</strong> Add 3 numbers and print their sum.</p>
+          <p><strong>The constraints of the problem that must be considered while solving the problem:</strong> The numbers must contain only digits and no other characters.</p>
+          <p><strong>The input to be taken to solve the problem:</strong> The three numbers to be added.</p>
+          <p><strong>The output to be expected when the problem the is solved:</strong> The sum of the three numbers taken as the input.</p>
+          <p><strong>The solution to this problem, in the given constraints: </strong>The solution consists of adding the 3 numbers. It can be done with the help of ‘+’ operator, or bit-wise, or any other method.</p>
+        <br>
+        <br>
+        <li>Step 2: Designing the algorithm</li>
+        <br>
+        <p>Now let’s design the algorithm with the help of above pre-requisites:</p>
+        <br>
+        <li>Algorithm to add 3 numbers and print their sum: </li>
+        <br>
+          <p>START</li>
+          <p>Declare 3 integer variables num1, num2 and num3.</p>
+          <p>Take the three numbers, to be added, as inputs in variables num1, num2, and num3 respectively.</p>
+          <p>Declare an integer variable sum to store the resultant sum of the 3 numbers.</p>
+          <p>Add the 3 numbers and store the result in the variable sum.</p>
+          <p>Print the value of variable sum</p>
+          <p>END</p>
+        
+        <br>
+        <br>
+        <li>Step 3: Testing the algorithm by implementing it.</li>
+        
+
+      </ul>
+
+     
+    </section>
+    </main>
+
+
+    <!-- Scripting on video -->
+
+
+    <script>
+      // Get the video
+      var video = document.getElementById("myVideo");
+      
+      // Get the button
+      var btn = document.getElementById("myBtn");
+      
+      // Pause and play the video, and change the button text
+      function myFunction() {
+        if (video.paused) {
+          video.play();
+          btn.innerHTML = "Pause";
+        } else {
+          video.pause();
+          btn.innerHTML = "Play";
+        }
+      }
+      </script>
+      
+</body>
+</html>

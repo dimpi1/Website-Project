@@ -1,0 +1,162 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: sans-serif;
+    background-image: url('./Sunflower.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+   
+    
+}
+nav{
+    height: 180px;
+    width: 100%;
+    background: #ff5a44;
+
+}
+label.logo{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    padding: 0 40px;
+    line-height: 80px;
+}
+ nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 2px;
+    line-height: 50px;
+}
+
+nav a{
+    color:white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding:5px 8px;
+    border-radius: 3px;
+}
+
+a.active,a:hover{
+    border: 1px solid white;
+    transition: .5s;
+} 
+
+
+.header-sec{
+   margin-top: 100px;
+    padding-left: 25px;
+}
+.header h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding-left: 25px;
+}
+
+.header p{
+    font-size: 20px;
+    padding-left: 55px;
+    margin-top: 35px;
+}
+.all-btn{
+    padding-left: 50px;
+    margin: 5px;
+    margin-top: 100px;
+
+}
+
+.btn{
+    padding: 20px 25px;
+    outline: none;
+    border: 2px solid #75061b;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    background: transparent;
+}
+
+a:link,a:visited{
+    text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+
+}
+
+.btn:hover,a:active{
+    background-color: #ffde20;
+    
+}
+.phy-video{
+    margin: 15px;
+    padding: 115px;
+}
+.video-sec h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding-left: 55px;
+    margin-top: 90px;
+
+}
+
+.video-sec h2{
+    font-size: 55px;
+    font-weight: 500;
+    text-align: center;
+    color: #75061b;
+    margin-top: 25px;
+
+}
+
+iframe{
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+
+.playlist{
+    text-align: center;
+    margin-left: 555px;
+    padding: 20px 25px;
+    outline: none;
+    border: 2px solid #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: #ff5a44;
+    
+}
+iframe{
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.maths-video{
+    margin: 15px;
+    padding: 115px;
+}
+iframe{
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.chem-video{
+    margin: 15px;
+    padding: 115px;
+}
